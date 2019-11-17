@@ -63,5 +63,5 @@ Changes across the versions
 
   [Unreleased]: https://github.com/codeofnode/projectname/compare/master...{{highest_of_v}}
   [0.1.3]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.1.3}}
-  [0.0.0]: https://github.com/codeofnode/projectname/tree/{{pull_req_no_for_v0.0.0}}
+  [0.0.0]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.0.0}}
 ```
