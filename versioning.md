@@ -33,6 +33,9 @@ master (latest version passed by QA, passing integration tests, ideal branch = r
 - fork from v0.0.0 as v0.0.0-2, raise pr to v0.0.0, merge the pr
 - for any feature or bug, always fork from a vX.X.X branch, not master or any other kind of branch
 
+
+# changelog
+
 ```text
 # changelog
 Changes across the versions
@@ -64,4 +67,35 @@ Changes across the versions
   [Unreleased]: https://github.com/codeofnode/projectname/compare/master...{{highest_of_v}}
   [0.1.3]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.1.3}}
   [0.0.0]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.0.0}}
+```
+
+# todo
+```text
+# TODO
+All todos will be noted in this file, with ref to the issue id
+
+## [0.1.3]  - 2019-04-19
+### To Be Added
+- [0.1.3-4] Some feature with issue id 4
+
+### To be Fixed
+- [0.1.3-2] Fix 1 of feature x
+
+
+## [0.2.3]  - 2019-7-19
+### To Be Added
+- [0.2.3-9] Some feature 2
+
+### To be Fixed
+- [0.2.3-8] some fix of feature x
+
+
+  [0.1.3]: https://github.com/codeofnode/projectname/tree/v0.1.3
+  [0.1.3-2]: https://github.com/codeofnode/projectname/issues/2
+  [0.1.3-4]: https://github.com/codeofnode/projectname/issues/4
+  
+  [0.2.3]: https://github.com/codeofnode/projectname/tree/v0.2.3
+  [0.2.3-8]: https://github.com/codeofnode/projectname/issues/8
+  [0.2.3-9]: https://github.com/codeofnode/projectname/issues/9
+  
 ```
