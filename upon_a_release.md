@@ -1,0 +1,12 @@
+# Steps for a release
+- A release happens whenever we are about to raise a pr from vx.y.z to vx.y.
+- this release includes all the features and bugs fixes for which we have branches vx.y.z-*
+- above should already been created in TODO.md
+- we move all these vx.y.z-* from TODO.md (also empty the todo version block if not issues for that version left in todo.md) to changelog.md, dated as current date
+- change / inc version info in package.json
+- commit it, and push it to githost.
+- raise a pr raise a pr from vx.y.z to vx.y
+- merge the pr.
+- in usual cases, also merge vx.y into vx and then vx into master
+- generate a dist of app, cp it to a new dir publish
+- inside publish, do npm publish
