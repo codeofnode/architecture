@@ -40,15 +40,6 @@ master (latest version passed by QA, passing integration tests, ideal branch = r
 # changelog
 Changes across the versions
 
-
-## [Unreleased]
-### Added
-- POC running basics
-
-### Fixes
-- No fixes
-
-
 ## [0.1.3]  - 2019-04-19
 ### Added
 - Some feature
@@ -64,7 +55,7 @@ Changes across the versions
 ### Fixed
 - No fixes
 
-  [Unreleased]: https://github.com/codeofnode/projectname/compare/master...{{highest_of_v}}
+
   [0.1.3]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.1.3}}
   [0.0.0]: https://github.com/codeofnode/projectname/pull/{{pull_req_no_for_v0.0.0}}
 ```
