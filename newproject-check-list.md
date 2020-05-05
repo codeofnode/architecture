@@ -11,3 +11,4 @@
 * Easily scalable to n number of nodes, make it stateless.
 * Easy migration or database
 * Easy to  Ship - We can make a single lightweight binary to deploy as microservice.
+* Stateless
